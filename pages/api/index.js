@@ -1,4 +1,5 @@
+// pages/api/index.js
 
-module.exports = (req, res) => {
+exports.default = function handler(req, res) {
   res.status(200).send("🎙️ Podcast Polyglot MVP is live on Vercel!");
 };
